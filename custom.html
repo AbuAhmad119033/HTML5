@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ustom properties</title>
+    <style>
+        :root{
+            --main-color: red;
+            --background-color:slateblue;
+            --border-color: slateblue;
+            --dark-border:2px solid black;
+        }
+        h2{
+            color: var(--main-color);
+        }
+        h3{
+            border: 2px solid var(--border-color);
+            color: var(--main-color);
+        }
+        h6{
+            color: var(--main-color);
+            background-color: var(--background-color);
+        }
+        footer{
+            border: var(--dark-border);
+            color: var(--main-color);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>welcome to this custom website</h2>
+    </header>
+    <main>
+        <h3>i am exploring the customm prooerties</h3>
+        <h6>my <abbr title="www.awesome.com">awesome</abbr> content</h6>
+        <article class="blogs">
+            <h3>this is blog-1</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum odit voluptates architecto eum ea accusantium ad. Expedita facere voluptates repellendus ab asperiores eum nostrum nisi odit, error ratione distinctio porro non aut. Esse error doloribus ipsam, quis ullam sunt perferendis sapiente optio nulla earum, magni eligendi quod id voluptate nihil!</p>
+        </article>
+        <article class="blogs">
+            <h3>this is blog-2</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio totam velit repellat expedita necessitatibus beatae a corporis enim recusandae quo, amet earum, minima aperiam laudantium quis, sapiente ullam hic officiis itaque architecto eius laborum molestias repellendus voluptatem. Fugiat, fugit officiis labore quo, dignissimos soluta asperiores corporis voluptate cupiditate voluptatem unde.</p>
+        </article>
+        <article class="blogs">
+            <h3>this is blog-3</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia sint blanditiis aut repudiandae pariatur? Ipsa sit repellendus commodi ipsam quos illo voluptate optio odio laborum earum corporis distinctio nihil deserunt, quas architecto nemo. Necessitatibus praesentium minus distinctio eligendi voluptate quo earum! Veritatis maiores aliquid, repellendus sequi id earum vel ut?</p>
+        </article>
+        <article class="blogs">
+            <h3>this is blog-4</h3>
+            <!-- <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non accusamus repudiandae voluptates ea tenetur expedita laborum dolor accusantium ipsa nam hic illum quisquam iste explicabo, exercitationem iusto quia nulla! Consequuntur aliquam corrupti eius ipsum rem! Vero mollitia dolorem ad excepturi beatae? Dicta esse cupiditate ut eaque expedita dolore consequatur molestiae.</p> -->
+        </article>
+    </main>
+    <footer>
+        <p><small>welcome to my footer</small></p>
+    </footer>
+</body>
+</html>

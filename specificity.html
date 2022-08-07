@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="specificity-style/style.css">
+    <style>
+        #head{
+            color: blue;
+        }
+        
+
+        .heading-style{
+            color: crimson;
+        }
+        h3{
+            color: aqua;
+        }
+        h3{
+            color: beige;
+        }
+        h3{
+            color: blueviolet !important;
+        }
+        
+    </style>
+</head>
+<body>
+    <h3 class="heading-style">this is heading-1</h3>
+    <h3 class="heading-style" >this is heading-2</h3>
+    <h3 id="head" class="heading-style" style="background-color:pink">this is heading-3</h3>
+    <h3>this is heading-4</h3>
+
+    <p>this is my text</p>
+    <p>this is my text</p>
+    <p>this is my text</p>
+    <p>this is my text</p>
+    <p>this is my text</p>
+</body>
+</html>
